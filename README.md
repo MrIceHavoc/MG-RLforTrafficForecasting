@@ -1,2 +1,4 @@
 # MGNNforImageDescriptionGeneration
-Dataset: [kgbench: A Collection of Knowledge Graph Datasets for Evaluating Relational and Multimodal Machine Learning](https://zenodo.org/record/4361787#.Y1nUiPeRVe4)
+Dataset used: 
+- [VisualGenome](https://visualgenome.org/)
+- [MS-COCO](https://cocodataset.org/#home)
