@@ -1,4 +1,2 @@
 # MGNNforImageDescriptionGeneration
-Datasets used: 
-- [VisualGenome](https://visualgenome.org/)
-- [MS-COCO](https://cocodataset.org/#home)
+Dataset used: [VizWiz Image Captioning](https://vizwiz.org/tasks-and-datasets/image-captioning/
