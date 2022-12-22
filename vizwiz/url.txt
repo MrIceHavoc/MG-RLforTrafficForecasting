@@ -1,0 +1,4 @@
+https://vizwiz.cs.colorado.edu/VizWiz_final/caption/annotations.zip
+https://vizwiz.cs.colorado.edu/VizWiz_final/images/train.zip
+https://vizwiz.cs.colorado.edu/VizWiz_final/images/val.zip
+https://vizwiz.cs.colorado.edu/VizWiz_final/images/test.zip
