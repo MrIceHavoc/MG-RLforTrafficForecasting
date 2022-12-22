@@ -133,3 +133,4 @@ dmypy.json
 /vizwiz/test
 /vizwiz/train
 /vizwiz/val
+/vizwiz/*.zip
