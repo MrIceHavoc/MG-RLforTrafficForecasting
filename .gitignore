@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dataset subdirectories
+/vizwiz/annotations
+/vizwiz/test
+/vizwiz/train
+/vizwiz/val
