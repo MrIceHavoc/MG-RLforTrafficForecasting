@@ -25,4 +25,4 @@ pip freeze
 # Check GPUs
 echo $CUDA_VISIBLE_DEVICES
 
-python tools/run.py --tasks vqa --datasets vizwiz --model s_mmgnn --config ensemble/bar/s_mmgnn.yml --resume_file ensemble/bar/s_mmgnntrained_final.pth -dev cuda:0 --run_type all_in_one
+python tools/run.py --tasks captioning --datasets vizwiz --model s_mmgnn --config ensemble/bar/s_mmgnn.yml --resume_file ensemble/bar/s_mmgnntrained_final.pth -dev cuda:0 --run_type all_in_one

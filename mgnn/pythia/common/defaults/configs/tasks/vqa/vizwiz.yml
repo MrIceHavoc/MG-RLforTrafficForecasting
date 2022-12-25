@@ -8,6 +8,7 @@ task_attributes:
                 data_root_dir: ../data
                 image_depth_first: false
                 fast_read: false
+                fast_dir: /data/vizwiz
                 image_features:
                     train:
                     - vizwiz/detectron_fix_100/fc6/train,vizwiz/resnet152/train
