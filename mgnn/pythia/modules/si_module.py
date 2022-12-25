@@ -4,7 +4,6 @@ from torch.nn import functional as F
 from torch.nn.parameter import Parameter
 
 from pythia.modules.layers import ReLUWithWeightNormFC, LinearTransform
-from geolib.inits import glorot
 
 
 class SI_GNN(nn.Module):
@@ -36,8 +35,8 @@ class SI_GNN(nn.Module):
         self.reset_parameters()
 
     def reset_parameters(self):
-        glorot(self.W1)
-        glorot(self.W2)
+        nn.init.xavier_normal_(self.W1)
+        nn.init.xavier_normal_(self.W2)
         nn.init.normal_(self.epsilon)
 
     def bb_process(self, bb):
